@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle de Palabras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Puzzle de Palabras</h1>
+        <p>Ordena las palabras para formar una frase</p>
+    </header>
+    <main>
+        <section id="puzzle">
+            <div id="puzzle-grid"></div>
+            <div id="options-grid"></div>
+            <button id="check-puzzle">Comprobar</button>
+        </section>
+        <section id="level-buttons">
+            <button onclick="setLevel(1)" id="level-1">Nivel 1</button>
+            <button onclick="setLevel(2)" id="level-2">Nivel 2</button>
+            <button onclick="setLevel(3)" id="level-3">Nivel 3</button>
+            <button onclick="setLevel(4)" id="level-4">Nivel 4</button>
+            <button onclick="setLevel(5)" id="level-5">Nivel 5</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
