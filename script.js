@@ -90,7 +90,7 @@ function checkPuzzle() {
         document.getElementById(`level-${currentLevel}`).disabled = true;
         completedLevels.push(currentLevel);
     } else {
-        alert('Inténtalo de nuevo');
+        alert('Try again, please restart the level');
     }
 }
 
